@@ -1,7 +1,7 @@
 {
-    "name": "SuperSplat",
-    "short_name": "SuperSplat",
-    "description": "SuperSplat is an advanced browser-based editor for manipulating and optimizing 3D Gaussian Splats. It is open source and engine agnostic.",
+    "name": "3DSplat",
+    "short_name": "3DSplat",
+    "description": "3DSplat is an advanced browser-based visualization tool for 3D Gaussian Splats.",
     "display": "fullscreen",
     "start_url": "./",
     "scope": "./",

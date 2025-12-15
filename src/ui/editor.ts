@@ -74,7 +74,7 @@ class EditorUI {
         // app label
         const appLabel = new Label({
             id: 'app-label',
-            text: `SUPERSPLAT v${version}`
+            text: `3DSplat v${version}`
         });
 
         // cursor label

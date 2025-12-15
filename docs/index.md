@@ -1,24 +1,24 @@
-# SuperSplat User Guide
+# 3D Splat User Guide
 
-Welcome to the SuperSplat User Guide.
+Welcome to the 3D Splat User Guide.
 
-SuperSplat is an open source, browser-based 3D Gaussian Splat Editor. You can use it to view, inspect, transform, combine, crop, clean up and optimize 3D Gaussian Splats.
+3D Splat is an open source, browser-based 3D Gaussian Splat Editor. You can use it to view, inspect, transform, combine, crop, clean up and optimize 3D Gaussian Splats.
 
-## Installing SuperSplat
+## Installing 3D Splat
 
-SuperSplat is a web app so you do not need to install it. Simply point your browser at:
+3D Splat is a web app so you do not need to install it. Simply point your browser at:
 
 https://playcanvas.com/supersplat/editor
 
-However, for your convenience, you can also install SuperSplat as a PWA (Progressive Web App). This will make SuperSplat appear and behave more like a native application. An app icon for SuperSplat will be generated on your desktop or home screen. Furthermore, .ply files will be associated with the SuperSplat PWA, enabling you to launch SuperSplat more quickly.
+However, for your convenience, you can also install 3D Splat as a PWA (Progressive Web App). This will make 3D Splat appear and behave more like a native application. An app icon for 3D Splat will be generated on your desktop or home screen. Furthermore, .ply files will be associated with the 3D Splat PWA, enabling you to launch 3D Splat more quickly.
 
 ## Loading Splats
 
-SuperSplat loads splats from .ply files. Only .ply files containing 3D Gaussian Splat data can be loaded. If you attempt to load any other type of data from a .ply file, it will fail.
+3D Splat loads splats from .ply files. Only .ply files containing 3D Gaussian Splat data can be loaded. If you attempt to load any other type of data from a .ply file, it will fail.
 
 There are three ways that you can load a .ply file:
 
-1. Drag and drop one or more .ply files from your file system into SuperSplat's client area.
+1. Drag and drop one or more .ply files from your file system into 3D Splat's client area.
 2. Select the `Scene` > `Open` menu item and select one or more .ply files from your file system.
 3. Use the `load` query parameter. This is in the form: `https://playcanvas.com/supersplat/editor?load=<PLY_URL>`. An example would be:
 
@@ -30,14 +30,14 @@ There are three ways that you can load a .ply file:
 
 To save the currently loaded scene, select the `Scene` > `Save` or `Save As` menu items. This will save a `.ply` file to your file system.
 
-SuperSplat can also export to two additional formats via the `Scene` > `Export` sub-menu:
+3D Splat can also export to two additional formats via the `Scene` > `Export` sub-menu:
 
 * **Compressed Ply**: A lightweight, compressed format that is far smaller than the equivalent uncompressed .ply file. It quantizes splat data and drops spherical harmonics from the output file. See [this article](https://blog.playcanvas.com/compressing-gaussian-splats/) for more details on the format.
 * **Splat File**: Another compressed format, although not as efficient as the compressed ply format.
 
 ## Controlling the Camera
 
-The camera controls in SuperSplat are as follows:
+The camera controls in 3D Splat are as follows:
 
 | Control                                         | Description                     |
 | ----------------------------------------------- | ------------------------------- |
@@ -63,7 +63,7 @@ You can control the pixel size of the center dots in the VIEW OPTIONS panel.
 
 ## Selecting and Deleting Splats
 
-Cropping splats or deleting unwanted Gaussians is a key function of SuperSplat. To help with this, there are 3 selection tools available:
+Cropping splats or deleting unwanted Gaussians is a key function of 3D Splat. To help with this, there are 3 selection tools available:
 
 * **Picker Select**: Click to select, or click + drag to rect select.
 * **Brush Select**: Click and drag a selection circle. Change the brush size with the `[` and `]` keys.
@@ -73,7 +73,7 @@ Once you are happy with your selection, you can delete it with the Delete key.
 
 ## Transforming Splats
 
-SuperSplat can translate, rotate and scale splats. To do this, select a splat in the Scene Manager and activate one of the gizmos via the horizontal icon bar.
+3D Splat can translate, rotate and scale splats. To do this, select a splat in the Scene Manager and activate one of the gizmos via the horizontal icon bar.
 
 To achieve fine grain control over the transform of the selected splat, you can use the TRANSFORM panel (below the SCENE MANAGER panel).
 
