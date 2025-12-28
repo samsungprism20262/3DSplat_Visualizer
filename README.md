@@ -1,16 +1,7 @@
 # 3D Splat Editor
 
-[![Github Release](https://img.shields.io/github/v/release/playcanvas/supersplat)](https://github.com/playcanvas/supersplat/releases)
-[![License](https://img.shields.io/github/license/playcanvas/supersplat)](https://github.com/playcanvas/supersplat/blob/main/LICENSE)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white&color=black)](https://discord.gg/RSaMRzg)
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white&color=black)](https://www.reddit.com/r/PlayCanvas)
-[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white&color=black)](https://x.com/intent/follow?screen_name=playcanvas)
-
-| [3D Splat Editor](https://superspl.at/editor) | [User Guide](https://developer.playcanvas.com/user-manual/gaussian-splatting/editing/supersplat/) | [Blog](https://blog.playcanvas.com) | [Forum](https://forum.playcanvas.com) |
-
 The 3D Splat Editor is a free and open source tool for inspecting, editing, optimizing and publishing 3D Gaussian Splats. It is built on web technologies and runs in the browser, so there's nothing to download or install.
 
-A live version of this tool is available at: https://superspl.at/editor
 
 ![image](https://github.com/user-attachments/assets/b6cbb5cc-d3cc-4385-8c71-ab2807fd4fba)
 
@@ -81,11 +72,3 @@ To test your translations:
    ```
 
    Replace `<locale>` with your language code (e.g., `fr`, `de`, `es`).
-
-## Contributors
-
-3D Splat is made possible by our amazing open source community:
-
-<a href="https://github.com/playcanvas/supersplat/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=playcanvas/supersplat" />
-</a>
